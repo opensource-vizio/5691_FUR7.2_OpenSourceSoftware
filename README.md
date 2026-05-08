@@ -12,4 +12,4 @@ Pre-requisites on the Ubuntu : #Commands to run 1)sudo apt update 2)sudo apt-get
 
 Now after running the above commands you can see the modules and a readmefile , for easy and straight forward build follow instructions in readme file as is or each module contains its own readme or build instruction file ,follow each set of instructions individually and you can ignore errors that might showup when you run prepForBuild.sh , they are not crticial and doesn't conclude or play role in build's success.
 
-Download 5691_FUR7.2 SourceCode Zip file here:https://d2mi77xcznxniv.cloudfront.net/index.html?file=5691_FUR7.2.zip
+Download 5691_FUR7.2 SourceCode Zip file here:https://d2mi77xcznxniv.cloudfront.net/index.html?file=5691_OSS_FUR7.2.zip
