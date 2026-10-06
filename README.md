@@ -1,15 +1,23 @@
 # 5691_FUR7.2_OpenSourceSoftware
 
-#Environment
+## Environment
+Individual build components may list different versions of Ubuntu for compilation in their respective readme / build instruction files, however, all modules here in were compiled successfully on Ubuntu 22.04 (jammy).
 
-Individual build components may list different versions of Ubuntu for compilation in their respective readme / build instruction files, however, all modules here in were compiled successfully in Ubuntu 22.04
+## Preparing the Ubuntu Environment
+Run the following commands:
+```
+sudo apt update
+sudo apt-get install unzip
+```
 
-Pre-requisites on the Ubuntu : #Commands to run 1)sudo apt update 2)sudo apt-get install zip unzip
+## Build Instructions 
+After downloading the zip file, run these commands:
+```
+unzip 5691_OSS_FUR7.2.zip
+cd 5691_OSS_FUR7.2
+```
 
-#Build Instructions After downloading the zip file, run below commands
+After running these commands you can see the modules and a readme. For an easy and straightforward build, follow the instructions in the readme as-is. Each module also contains its own readme or build instruction file. 
 
-1)unzip 5691_FUR7.2.zip 2)cd 5691_FUR7.2
-
-Now after running the above commands you can see the modules and a readmefile , for easy and straight forward build follow instructions in readme file as is or each module contains its own readme or build instruction file ,follow each set of instructions individually and you can ignore errors that might showup when you run prepForBuild.sh , they are not crticial and doesn't conclude or play role in build's success.
-
-Download 5691_FUR7.2 SourceCode Zip file here:https://d2mi77xcznxniv.cloudfront.net/index.html?file=5691_OSS_FUR7.2.zip
+## Source Location
+Download source archive here: https://d2mi77xcznxniv.cloudfront.net/index.html?file=5691_OSS_FUR7.2.zip
